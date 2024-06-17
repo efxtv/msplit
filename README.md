@@ -36,6 +36,14 @@ l - Number of lines
 ```
 ./msplit.py n 5 data.csv output_part
 ```
+
+## How to use it as a tool?
+
+### Create a soft link
+```
+sudo chmod +x msplit.py
+sudo ln -s $PWD/msplit.py /usr/local/bin/msplit
+```
 ```
 ./msplit.py l 1000 textfile.txt output_part
 ```
